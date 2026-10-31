@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Row, Col, Form } from "react-bootstrap";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../store/hooks";
 import "./Profile.css";
 
 function Profile() {
